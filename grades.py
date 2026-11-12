@@ -35,3 +35,11 @@ if __name__ == "__main__":
 
 def passed(score):
     return score>= PASS_SCORE
+
+def count_by_grade(db, letter):
+    """Считает, сколько студентов получили по среднему баллу оценку letter."""
+    count = 0
+    for scores in db.values():
+        if grade(average(scores)) == letter:
+            count += 1
+    return count
