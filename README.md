@@ -11,4 +11,4 @@
     python -m venv .venv
     python -m pip install -r requirements.txt
     python main.py
-    
+    выполнила: группа ИИбит 25-1р, Крыкбаева Марьям 
